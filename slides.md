@@ -23,6 +23,13 @@ transition: fade
 
 Comment gagner des **années** de temps de CI en quelques **minutes**.
 
+
+<!--
+cache
+intégration continue
+économies de temps, argent et énergie
+-->
+
 ---
 title: About:me
 ---
@@ -56,6 +63,10 @@ transition: fade
   <li v-click>Un seul CI / CD pour l'ensemble</li>
   <li v-click>Plusieurs équipes</li>
 </ul>
+
+<!--
+Example: Google
+-->
 
 ---
 layout: image
@@ -94,6 +105,10 @@ layout: cover
 </li>
 </ol>
 
+<!--
+Parallélisation: utiliser les coeurs CPU pour faire tourner plusieurs tâches en
+-->
+
 ---
 
 <h1 style="font-size:4rem;">Turborepo n'est <strong>pas</strong>:</h1>
@@ -117,10 +132,8 @@ Un gestionnaire de _workspace_ <span class="text-gray-500">(built-in, lerna)</sp
 
 </v-click>
 
-
 <!--
-
-3. Scripts dans package.json (build, test, lint)
+Scripts dans package.json (build, test, lint)
 -->
 
 ---
@@ -133,6 +146,10 @@ Un gestionnaire de _workspace_ <span class="text-gray-500">(built-in, lerna)</sp
   <li v-click>Hashing</li>
   <li v-click>Distribution</li>
 </ul>
+
+<!--
+Attention: bien décrire les choses dont le code dépend (env, arch)
+-->
 
 ---
 layout: image
